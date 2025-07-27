@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "PDF Plug AI - AI-Powered PDF Learning Tool",
+  "version": "2.0",
+  "description": "Transform PDFs into interactive study materials with AI-powered summaries, quizzes, flashcards, and comprehension tools.",
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Open PDF Plug AI Dashboard",
+    "default_icon": {
+      "16": "icon-16.png",
+      "48": "icon-48.png",
+      "128": "icon-128.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["dashboard.html", "pdf.min.js", "pdf.worker.min.js", "config.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

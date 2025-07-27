@@ -1,0 +1,23 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="#e53935" stroke="#fff" stroke-width="2"/>
+  
+  <!-- PDF document icon -->
+  <rect x="35" y="25" width="45" height="60" rx="3" fill="#fff"/>
+  <rect x="35" y="25" width="45" height="15" rx="3" fill="#ffb300"/>
+  
+  <!-- PDF text -->
+  <text x="57.5" y="37" font-family="Arial, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="#2d0036">PDF</text>
+  
+  <!-- Smart brain icon -->
+  <circle cx="57.5" cy="55" r="12" fill="#2d0036" opacity="0.8"/>
+  <path d="M50 55 Q57.5 45 65 55 Q57.5 65 50 55" fill="#ffb300"/>
+  
+  <!-- Lightning bolt for "smart" -->
+  <path d="M85 35 L75 50 L80 50 L70 65 L80 50 L75 50 Z" fill="#ffb300" stroke="#fff" stroke-width="1"/>
+  
+  <!-- Document lines -->
+  <line x1="40" y1="65" x2="75" y2="65" stroke="#2d0036" stroke-width="1.5"/>
+  <line x1="40" y1="70" x2="70" y2="70" stroke="#2d0036" stroke-width="1.5"/>
+  <line x1="40" y1="75" x2="75" y2="75" stroke="#2d0036" stroke-width="1.5"/>
+</svg>
