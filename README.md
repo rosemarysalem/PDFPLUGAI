@@ -3,7 +3,8 @@
   <br/>
   <img src="https://github.com/rosemarysalem/pdf-plug-ai/blob/main/2.png?raw=true" width="600" />
 </p>
-# 📚 PDF Plug AI - AI-Powered PDF Learning Tool
+
+📚 PDF Plug AI - AI-Powered PDF Learning Tool
 
 **Transform PDFs into Interactive Learning Experiences with AI-powered summaries, quizzes, flashcards, and comprehension tools. Smart PDF processing for enhanced learning.**
 
